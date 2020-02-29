@@ -15,12 +15,12 @@ This documentation is for SUMA 1.0.0.
 - Supports [SPARQL](https://www.w3.org/TR/sparql11-query/) queries
 
 # Using SUMA
-- There are two ways to use SUMA: first, run the [SUMA source code](https://github.com/SUMA-2019/SUMA-resource), and second, run [SUMA.jar](https://github.com/SUMA-2019/SUMA) by the command line.
+- There are two ways to use SUMA: first, run the [SUMA source code](https://github.com/SUMA-2019/SUMA-resource), and second, run [SUMA.jar](https://github.com/SUMA-2019/SUMA) by command line.
 ## How to run SUMA source code？
 #### Runtime environment: Java 8
 #### 1. Git clone https://github.com/SUMA-2019/SUMA-resource.git;
 #### 2. Run the main class testSUMARunTest.java (src/main/java/com/tju/suma/test/testSUMARunTest.java);
-#### 3. Load all the jars in the lib. 
+#### 3. Load all the jars under the lib. 
 
 - For instance, in IntelliJ IDEA, you can load in the following way: Project Structure -> Libraries -> new project library -> Java;
 #### 4. Modify parameters:
@@ -44,7 +44,7 @@ This documentation is for SUMA 1.0.0.
 - After you complete the first three steps, you can run the main class testSUMARunTest.java directly. The default path in the main class is our running example. It points to src/main/java/com/tju/suma/data, where includes standard.sparql (query file), univ-bench-dl.owl (ontology file), and uobm1.nt (RDF file).
 
 ## How to run SUMA.jar？
-- There are two ways to run SUMA.jar: first, directly run [SUMA.jar](https://github.com/SUMA-2019/SUMA) by the command line, and second, regenerate the jar from the SUMA source. 
+- There are two ways to run SUMA.jar: first, directly run [SUMA.jar](https://github.com/SUMA-2019/SUMA) by command line, and second, regenerate the jar from the SUMA source. 
 #### Runtime environment: Java 8 
 #### 1. Git clone https://github.com/SUMA-2019/SUMA.git;
 #### 2. Command is of the following form :
