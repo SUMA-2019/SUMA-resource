@@ -19,10 +19,10 @@ This documentation is for SUMA 1.0.0.
 ## How to run SUMA source code？
 #### Runtime environment: Java 8
 #### 1. Git clone https://github.com/SUMA-2019/SUMA-resource.git;
-#### 2. Run the main class testSUMARunTest.java (src/main/java/com/tju/suma/test/testSUMARunTest.java);
-#### 3. Load all the jars under the lib. 
+#### 2. Load all the jars under the lib. 
 
 - For instance, in IntelliJ IDEA, you can load in the following way: Project Structure -> Libraries -> new project library -> Java;
+#### 3. Run the main class testSUMARunTest.java (src/main/java/com/tju/suma/test/testSUMARunTest.java);
 #### 4. Modify parameters:
 - `pathTBox: the ontology path (*.owl)`
     
