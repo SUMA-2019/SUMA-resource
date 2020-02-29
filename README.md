@@ -51,6 +51,17 @@ This documentation is for SUMA 1.0.0.
 - java -jar SUMA.jar ONTOLOGY_PATH DATA_PATH NEW_DATA_PATH
 - For example: java -jar SUMA.jar [uobm.owl](https://github.com/SUMA-2019/SUMA) [uobm1.nt](https://github.com/SUMA-2019/SUMA) [uobm1_new.nt](https://github.com/SUMA-2019/SUMA)
 
+### Datasets:
+- [LUBM data generator](http://swat.cse.lehigh.edu/projects/lubm/);
+- [UOBM data generator](http://www.cs.ox.ac.uk/isg/tools/UOBMGenerator/);
+- [Ontologies](https://github.com/SUMA-2019/SUMA) used at experiment of SUMA at DASFAA'20;
+- [Queries](https://github.com/SUMA-2019/SUMA) used at experiment of SUMA at DASFAA'20;
+- [DBPedia+ ontology, data and query](http://www.cs.ox.ac.uk/isg/tools/PAGOdA/).
+
+### Other systems:
+- [PAGOdA](http://www.cs.ox.ac.uk/isg/tools/PAGOdA/): PAGOdA exploits a hybrid approach to answering conjunctive queries over OWL 2 ontologies that combines a datalog reasoner with a fully-fledged OWL 2 reasoner in order to provide scalable "pay as you go" performance. 
+- [RDF3x](https://github.com/gh-rdf3x/gh-rdf3x): RDF3x is a efficient SPARQL query engine. 
+
 
   
  
